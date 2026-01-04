@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import { ApiReferenceReact } from '@scalar/api-reference-react'
 import '@scalar/api-reference-react/style.css'
 
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById('root')!).render(
     <StrictMode>
       <ApiReferenceReact
         configuration={{
