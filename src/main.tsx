@@ -8,7 +8,6 @@ createRoot(document.getElementById('root')).render(
       <ApiReferenceReact
         configuration={{
           // url: 'http://0.0.0.0:8000/v1/auth/doc.json',
-          
           url: 'https://fnapi.llamatracker.net/v1/auth/doc.json',
         }}
       />
